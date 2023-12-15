@@ -1,7 +1,7 @@
 #include <stdio.h>
 /**
  * main- Entry point
- * Description: program that prints exactly with proper grammar, but the outcome is a piece of art,
+ * Description: program that prints data with the printf function
  * Return: Always 0 (Success)
  */
 int main(void)
