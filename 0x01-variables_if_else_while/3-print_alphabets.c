@@ -5,15 +5,15 @@
  */
 int main(void)
 {
-	char alphabet, letter;
+	char lowercase, uppercase;
 
-	for (alphabet = 'A'; alphabet <= 'Z'; alphabet++)
+	for (lowercase = 'a'; lowercase <= 'z'; lowercase++)
 	{
-		for (letter = 'a'; letter <= 'z'; letter++)
-		{
-			putchar(letter);
-		}
-		 putchar(alphabet);
+		putchar(lowercase);
+	}
+	for (uppercase = 'A'; uppercase <= 'Z'; uppercase++)
+	{
+		putchar(uppercase);
 	}
 
 	putchar('\n');
