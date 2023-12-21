@@ -2,7 +2,7 @@
 #define MAIN_H
 #include <stdio.h>
 
-postitive_or_negative();
+postitive_or_negative(int i);
 
 
-#endif /*MAIN_H*/
+#endif /* MAIN_H */
