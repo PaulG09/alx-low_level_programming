@@ -6,9 +6,21 @@
  */
 int _strlen(char *s)
 {
-	int len = strlen(*s);
+	if (s != NULL)
+	{
+		int length = 0;
 
-	putchar(len);
+		while (s != '\0')
+		{
+			length++;
+			s++;
+		}
 
-	return (0);
+		return (length);
+	}
+
+	else
+	{
+		return (-1);
+	}
 }
