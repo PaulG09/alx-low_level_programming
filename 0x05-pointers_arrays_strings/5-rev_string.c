@@ -1,4 +1,5 @@
 #include "main.h"
+#include <string.h>
 /**
  * rev_string - check code
  * @s: input parameter
@@ -8,7 +9,7 @@ void rev_string(char *s)
 {
 	if (s != NULL)
 	{
-		int length = strlen(s);
+		int length = strlen(si;
 		int start = 0;
 		int end = length - 1;
 
