@@ -1,5 +1,6 @@
 #include "main.h"
 int actual_sqrt_recursion(int n, int i);
+
 /**
  *  _sqrt_recursion - check code
  *  @n: input parameter
@@ -12,6 +13,8 @@ int _sqrt_recursion(int n)
 		return (-1);
 	}
 }
+
+
 /**
  * actual_sqrt_recursion - recursively checks for natural square root
  * @i:input parameter
