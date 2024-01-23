@@ -1,12 +1,13 @@
 #ifndef DOG_H
 #define DOG_H
 /**
- * struct dog - definition of a new type
+ * struct dog - defines a C- structure
  * @name: first member
  * @age: second member
- * @owner: third member
+ * @owner:third member
  *
- * Description: declares and defines a datablock of struct dog
+ * Description: declares a C structure that assigns it to a a different
+ *              structure through a pointer *d to the function declared.
  */
 struct dog
 {
@@ -14,4 +15,6 @@ struct dog
 	float age;
 	char *owner;
 };
-#endif /* DOG_H */
+
+void init_dog(struct dog *d, char *name, float age, char *owner);
+#endif/* DOG_H */
