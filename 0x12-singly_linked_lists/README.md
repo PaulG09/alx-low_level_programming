@@ -1,1 +1,1 @@
-C-Singly Linked Lists
+Solutions to tasks on singly linked lists
