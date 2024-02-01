@@ -1,5 +1,5 @@
-#ifndef _LISTS_
-#define _LISTS_
+#ifndef LISTS_H
+#define LISTS_H
 
 #include <stdlib.h>
 #include <string.h>
@@ -24,4 +24,4 @@ int _putchar(char c);
 
 
 
-#endif /* _LISTS_  */
+#endif /* LISTS_H  */
