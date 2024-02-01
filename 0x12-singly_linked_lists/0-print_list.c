@@ -6,7 +6,7 @@
  */
 size_t print_list(const list_t *h)
 {
-	size_t volva = 0;
+	size_t v = 0;
 
 	while (h != NULL)
 	{
@@ -16,11 +16,13 @@ size_t print_list(const list_t *h)
 		}
 
 		else
+
 		{
 			 printf("[%d] %s", h->len, h->str);
 			 h = h->next;
 			 volva++;
 		}
-		return (volva);
+
+		return (v);
 	}
 }
