@@ -6,7 +6,7 @@
  */
 size_t print_list(const list_t *h)
 {
-	size_t volva;
+	size_t volva = 0;
 
 	while (h != NULL)
 	{
